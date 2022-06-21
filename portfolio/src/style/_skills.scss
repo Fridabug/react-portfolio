@@ -1,19 +1,15 @@
 
 .skills {
-    margin: 2rem auto;
+    margin: 3rem auto;
     width: 80%;
     text-align: center;
+
   
     h2 {
       margin: 2rem 0;
     }
-  
-    table {
-      width: 60%;
-      margin: 0 auto;
-      td {
-        width: 20%;
-        padding: 1rem;
-      }
+
+    .nav-link:focus, .nav-link:hover {
+      color: #984447!important;
     }
   }
