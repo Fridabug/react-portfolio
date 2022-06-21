@@ -1,5 +1,13 @@
 @use "./style/fonts.scss";
 @use "./style/home.scss";
+@use "./style/footer";
+@use "./style/contact";
+@use "./style/nav";
+@use "./style/planets";
+@use "./style/top";
+@use "./style/skills";
+@use "./style/projects";
+
 
 * {
   padding: 0;
@@ -12,10 +20,12 @@
 }
 
 .app {
+  color: #FDF4ED;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 100vh;
 }
 
 body, .bg-dark {
@@ -26,30 +36,4 @@ body, .bg-dark {
   background-color: #244f6e!important;
 }
 
-form {
-  padding: 2rem;
-}
 
-footer {
-  width: 100%;
-  text-align: center;
-  padding: 3rem 0;
-  ul {
-      width: 50%;
-      margin: 1rem auto;
-      display: flex;
-      justify-content: space-around;
-      padding: 0;
-      a {
-          font-size: 1.5rem;
-      }
-  }
-
-  p  {
-     margin-top: 2rem;
-
-     i {
-         opacity: 0.6;
-     }
-  }
-}

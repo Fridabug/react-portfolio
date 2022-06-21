@@ -1,10 +1,9 @@
 import React from 'react';
-
+import Planets from './Planets';
 
 function Home() {
   return (
     <div className='container main'>
-      <h1>Friederike Spring</h1>
       <section class="top">
         {/* <!-- Intro --> */}
         <div class="intro">
@@ -12,6 +11,7 @@ function Home() {
           <h1>I'm a Full Stack Developer building digital solutions.</h1>
           <p>Let's work on a project together.</p>
         </div>
+        <Planets/>
       </section>  
     {/* about me */}
       <section class="about-me" id="about-me">

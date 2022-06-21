@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Gotu&family=Lato:wght@300;400;700;900&family=Quicksand:wght@300;400;500;600&display=swap');
 
 :root  {
-    color:#FDF4ED!important;
+    color:#FDF4ED;
 
     h1, h2 {
       font-family: 'Gotu', sans-serif;
       font-weight: 100;
       letter-spacing: 0.2rem;
+      margin-bottom: 1.5rem;
     }
 
     h3 {

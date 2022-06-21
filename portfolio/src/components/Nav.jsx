@@ -17,7 +17,7 @@ function Nav() {
                         home
                     </Link>
                     </li>
-                    {/* <li className='nav-item'>
+                    <li className='nav-item'>
                     <Link className='nav-link' to='/skills'>
                         skill set
                     </Link>
@@ -26,7 +26,7 @@ function Nav() {
                     <Link className='nav-link' to='/projects'>
                         projects
                     </Link>
-                    </li> */}
+                    </li>
                     <li className='nav-item'>
                     <Link className='nav-link' to='/contact'>
                         contact

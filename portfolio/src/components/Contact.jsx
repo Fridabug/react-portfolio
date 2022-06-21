@@ -2,8 +2,9 @@ import React from 'react'
 
 function Contact() {
   return (
+    <div>
+      <h1>Drop me a message</h1>  
       <form className='light' action="https://formsubmit.co/umasprung@gmail.com" method="POST">
-          
         <div className="mb-4">
             <label for="email" className="form-label">Email address</label>
             <input type="email" className="form-control" id="email" placeholder="name@example.com"/>
@@ -13,7 +14,9 @@ function Contact() {
             <textarea className="form-control" id="message" rows="6"></textarea>
         </div>
         <button type="submit" className='btn btn-light'>send</button>
-    </form>
+      </form>
+    </div>
+
   )
 }
 
