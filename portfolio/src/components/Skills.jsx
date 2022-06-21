@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav'
 import { IoMdPlanet } from 'react-icons/io';
 import { TbPlanet } from 'react-icons/tb';
@@ -12,10 +13,15 @@ const icons = [IoMdPlanet, TbPlanet];
       <Nav fill variant="tabs" defaultActiveKey="/React">
         {skills.map((item, i) => {
           return <Nav.Item>
-            <Nav.Link key={i}>{item}</Nav.Link>
+            <Nav.Link key={i}>{TbPlanet, item}</Nav.Link>
           </Nav.Item>
         } )}
       </Nav>
+      <Routes>
+        <Route>
+
+        </Route>
+      </Routes>
     </section>
   )
 }
