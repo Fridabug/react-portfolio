@@ -6,6 +6,13 @@
     height: 460px;
     flex-shrink: 1;
   }
+
+
+//Hover
+
+.animation:hover > .rotation-small, .animation:hover > .rotation-medium, .animation:hover > .rotation-large {
+  animation-play-mode: paused;
+}
   
 // Planets
   
