@@ -3,7 +3,7 @@ import Planets from './Planets';
 
 function Home() {
   return (
-    <div className='container main'>
+    <div className='main'>
       <section class="top">
         {/* <!-- Intro --> */}
         <div class="intro">
@@ -27,7 +27,7 @@ function Home() {
             and take it to heart.
           </p>
         </div>
-  </section>
+       </section>
     </div>
   )
 }

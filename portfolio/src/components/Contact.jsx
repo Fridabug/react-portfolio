@@ -2,8 +2,8 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>
-      <h1>Drop me a message</h1>  
+    <div className='main contact'>
+      <h2>Drop me a message</h2>  
       <form className='light' action="https://formsubmit.co/umasprung@gmail.com" method="POST">
         <div className="mb-4">
             <label for="email" className="form-label">Email address</label>

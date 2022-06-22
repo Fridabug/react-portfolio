@@ -2,7 +2,7 @@ import React from 'react';
 
 function RubyOnRails() {
   return (
-      <div>RubyOnRails</div>
+      <div className='skill-details'>RubyOnRails</div>
     )
 }
 

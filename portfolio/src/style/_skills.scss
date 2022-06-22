@@ -1,7 +1,6 @@
 
 .skills {
     margin: 3rem auto;
-    width: 80%;
     text-align: center;
 
   
@@ -11,5 +10,12 @@
 
     .nav-link:focus, .nav-link:hover {
       color: #984447!important;
+    }
+  }
+
+  .skill-details {
+
+    h3 {
+      text-align: center;
     }
   }
