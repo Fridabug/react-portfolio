@@ -40,4 +40,24 @@
   #skills {
     width: 90%;
   }
+  .skills .skills-icons {
+    width: 100%;
+  }
+
+  .skill-details {
+    height:fit-content;
+  }
+}
+
+.skills-icons {
+  width: 50%;
+  margin: 2rem 0;
+  font-size: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  svg {
+    margin: 1rem 2rem;
+  }
 }

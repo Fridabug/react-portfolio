@@ -13,7 +13,7 @@ function Contact() {
             <label for="message" className="form-label">Your message</label>
             <textarea className="form-control" id="message" rows="6"></textarea>
         </div>
-        <button type="submit" className='btn btn-light'>send</button>
+        <button type="submit" className='btn'>send</button>
       </form>
     </div>
 
