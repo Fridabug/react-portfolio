@@ -6,9 +6,10 @@ import ReactSkill from './skills/ReactSkill';
 import RubyOnRails from './skills/RubyOnRails';
 import SQL from './skills/SQL';
 import SkillIntro from './skills/SkillIntro';
+import HTMLCSS from './skills/HTML&CSS';
 
 function Skills() {
-const skills = ['React', 'Ruby on Rails', 'SQL'];
+const skills = ['React', 'Ruby on Rails', 'HTML & CSS'];
   return (
       <div className="skills main">  
         <h1>Skills</h1> 
@@ -27,11 +28,12 @@ const skills = ['React', 'Ruby on Rails', 'SQL'];
           <Route path="/react" element={<ReactSkill/>}/>
           <Route path="/ruby-on-rails" element={<RubyOnRails/>}/>
           <Route path="/sql" element={<SQL/>}/>
+          <Route path="/html-&-css" element={<HTMLCSS/>}/>
         </Routes>
       </section>
-      {/* <section className='main'>
+      <section className='main'>
           <h2>ILLUSTRATION</h2>
-      </section> */}
+      </section>
     </div>
  
   );

@@ -11,6 +11,10 @@ footer {
         a {
             font-size: 1.5rem;
         }
+
+        a:focus, a:active {
+        color: #81B29A;
+        }
     }
   
     p  {

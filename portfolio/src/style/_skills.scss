@@ -12,15 +12,24 @@
     }
 
     .nav-link:focus, .nav-link:hover {
-      color: #984447!important;
+      color: #984447;
     }
   }
 
   .skill-details {
+    height: 200px;
+    margin-top: 2rem; 
+    p {
+      text-align: left;
+    }
 
     h3 {
       text-align: center;
     }
+}
+
+.nav-tabs {
+  justify-content: space-evenly;
 }
 
 #skills {
