@@ -10,14 +10,14 @@ function Footer() {
     <footer className="navbar-dark bg-dark" id="contact"> 
       <ul>
         <li className='nav-item'>
-          <Link className='nav-link' target='_blank' to='https://github.com/Fridabug'>
+          <a className='nav-link' target='_blank' to='https://github.com/Fridabug'>
             <BsGithub/>
-          </Link>
+          </a>
         </li>
         <li className='nav-item'>
-          <Link className='nav-link' target='_blank' to='https://de.linkedin.com/in/friederike-spring'>
+          <a className='nav-link' target='_blank' href='https://de.linkedin.com/in/friederike-spring'>
             <AiFillLinkedin/>
-          </Link>
+          </a>
         </li>
       </ul>
 
