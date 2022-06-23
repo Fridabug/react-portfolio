@@ -10,7 +10,7 @@ const NavLinks = () => {
             </li>
             <li className='nav-item'>
             <Link className='nav-link' to='/skills'>
-                skill set
+                skills
             </Link>
             </li>
             <li className='nav-item'>

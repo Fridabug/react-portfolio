@@ -15,9 +15,9 @@ const skills = ['React', 'Ruby on Rails', 'SQL'];
         <p>I've got a wide spectrum of experience </p>
         <section id="skills">
         <h2>WEB DEVELOPMENT</h2>
-        <ul className="nav justify-content-center">
+        <ul className="nav-tabs">
           {skills.map((item, i) => {
-            return <div className="nav-item nav-tabs">
+            return <div className="nav-item">
               <Link className="nav-link" activeClassName="active" to={`/skills/${item.toLowerCase().split(' ').join('-')}`} key={i}>{i % 2 === 0 ? IoMdPlanet : TbPlanet }{item}</Link>
             </div>
           } )}

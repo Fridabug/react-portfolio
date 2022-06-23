@@ -7,8 +7,10 @@
   line-height: 2rem;
   padding: 0 10%;
 }
+
 .logo {
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .navigation {
@@ -25,6 +27,11 @@
 }
 
 @media (max-width: 990px) {
+  nav {
+    height: 80px!important;
+    align-items: center;
+  }
+
   .navbar .navigation {
     display: none;
   }
@@ -39,20 +46,28 @@
       flex-direction: column;
       position: absolute;
       top: 80px;
-      right: 0;
+      left: 0;
       width: 100%;
       border-top: 1px solid #81B29A;
+      background-color: #061723;
     }
 
     ul li {
       padding-left: 15%;;
     }
 
-    .nav-icon {
+    .menu-icon {
       position: absolute;
       right: 5%; 
       cursor: pointer;
+      font-size: 2rem;
     }
   }
 }
 
+//Tabs Navbar
+
+.nav-tabs {
+  display: flex;
+  justify-content: flex-start;
+}
