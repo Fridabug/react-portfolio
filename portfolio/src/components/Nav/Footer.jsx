@@ -10,7 +10,7 @@ function Footer() {
     <footer className="navbar-dark bg-dark" id="contact"> 
       <ul>
         <li className='nav-item'>
-          <a className='nav-link' target='_blank' to='https://github.com/Fridabug'>
+          <a className='nav-link' target='_blank' href='https://github.com/Fridabug'>
             <BsGithub/>
           </a>
         </li>
